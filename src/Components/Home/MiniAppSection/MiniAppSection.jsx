@@ -4,7 +4,7 @@ import { FaPlay } from 'react-icons/fa';
 const MiniAppSection = () => {
   return (
     <section className="py-16 text-white relative overflow-hidden">
-      <div className="w-11/12 lg:w-9/12 bg-gradient-to-r from-yellow-400 to-orange-400 rounded-full p-10 md:p-16 mx-auto flex flex-col lg:flex-row items-center justify-center shadow-2xl">
+      <div className="w-10/12 lg:w-9/12 bg-gradient-to-r from-yellow-400 to-orange-400 rounded-full p-10 md:p-16 mx-auto flex flex-col lg:flex-row items-center justify-center shadow-2xl">
         {/* Left Content */}
         <div className="space-y-6 text-center lg:text-left">
           <div className="flex flex-col md:flex-row items-center gap-4">
