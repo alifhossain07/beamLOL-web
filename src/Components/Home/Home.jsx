@@ -6,6 +6,7 @@ import GameSlider from './GameSlider/GameSlider';
 import Collaborator from './Collaborator/Collaborator';
 import Roadmap from './Roadmap/Roadmap';
 import MiniAppSection from './MiniAppSection/MiniAppSection';
+import PremiumSection from './PremiumSection/PremiumSection';
 
 const Home = () => {
     return (
@@ -22,6 +23,7 @@ const Home = () => {
             <Collaborator></Collaborator>
             <Roadmap></Roadmap>
             <MiniAppSection></MiniAppSection>
+            <PremiumSection></PremiumSection>
             
         </div>
     );
