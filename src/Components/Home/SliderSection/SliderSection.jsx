@@ -26,7 +26,7 @@ const SliderSection = () => {
             </button>
           </div>
           <div className="w-1/2 flex justify-center">
-            <img src="/public/assets/slider1.png" className="max-w-xs rounded-lg shadow-lg" alt="Trade Pre-Market" />
+            <img src="/assets/slider1.png" className="max-w-xs rounded-lg shadow-lg" alt="Trade Pre-Market" />
           </div>
         </div>
 
@@ -49,7 +49,7 @@ const SliderSection = () => {
             </button>
           </div>
           <div className="w-1/2 flex justify-center">
-            <img src="/public/assets/slider2.png" className="max-w-xs rounded-lg shadow-lg" alt="Premium Benefits" />
+            <img src="/assets/slider2.png" className="max-w-xs rounded-lg shadow-lg" alt="Premium Benefits" />
           </div>
         </div>
 
@@ -71,7 +71,7 @@ const SliderSection = () => {
             </button>
           </div>
           <div className="w-1/2 flex justify-center">
-            <img src="/public/assets/slider3.png" className="max-w-xs rounded-lg shadow-lg" alt="SUI Partnership" />
+            <img src="/assets/slider3.png" className="max-w-xs rounded-lg shadow-lg" alt="SUI Partnership" />
           </div>
         </div>
         

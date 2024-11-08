@@ -10,7 +10,7 @@ const MiniAppSection = () => {
         {/* Left Content */}
         <div className="  space-y-6 text-center lg:text-left">
         <div className='flex items-center'>
-        <img className='w-32' src="/public/assets/airdroplogo.png" alt="" />
+        <img className='w-32' src="/assets/airdroplogo.png" alt="" />
         <h1 className="text-4xl items-center text-gray-900 font-bold font-heading-aldrich uppercase mb-4 text-shadow-lg animate-fadeIn">
             
             BeamLOL Mini-App <br /> Airdrop!
@@ -30,7 +30,7 @@ const MiniAppSection = () => {
         {/* Right Image */}
         <div className="lg:w-1/2 mt-10 lg:mt-0 relative flex justify-center">
           <img
-            src="/public/assets/airdrop.webp"
+            src="/assets/airdrop.webp"
             alt="BeamLOL Game Character"
             className="w-72 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 animate-slideInRight"
           />

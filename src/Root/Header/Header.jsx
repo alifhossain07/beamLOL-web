@@ -7,7 +7,7 @@ const Header = () => {
     <div className="navbar py-6 font-heading-aldrich text-[#87CEFA] shadow-2xl">
       <div className="w-10/12 mx-auto flex justify-between ">
         <div className="flex gap-4 items-center">
-    <img className="w-[70px]" src="/public/assets/balance.gif" alt="" />
+    <img className="w-[70px]" src="/assets/balance.gif" alt="" />
             <h1 className="text-3xl font-bold">BeamLOL </h1>
         </div>
         <div className="flex text-lg font-semibold uppercase items-center gap-10"> 
