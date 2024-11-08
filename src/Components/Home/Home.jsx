@@ -4,6 +4,7 @@ import About from './About/About';
 import SliderSection from './SliderSection/SliderSection';
 import GameSlider from './GameSlider/GameSlider';
 import Collaborator from './Collaborator/Collaborator';
+import Roadmap from './Roadmap/Roadmap';
 
 const Home = () => {
     return (
@@ -18,6 +19,7 @@ const Home = () => {
             </div>
             <GameSlider></GameSlider>
             <Collaborator></Collaborator>
+            <Roadmap></Roadmap>
             
         </div>
     );

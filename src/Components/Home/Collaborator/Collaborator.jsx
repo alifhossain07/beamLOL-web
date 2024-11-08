@@ -20,8 +20,8 @@ import {
 const Collaborator = () => {
   return (
     <div className="py-20">
-      <section className="text-gray-200 py-12 px-8">
-        <div className="max-w-5xl mx-auto">
+      <section className="text-gray-200 py-12 ">
+        <div className=" w-9/12 mx-auto">
           {/* Header */}
           <h3 className="text-[#bcdff4] text-xl font-bold font-heading-aldrich tracking-wider uppercase mb-10">
             Our Collabs
