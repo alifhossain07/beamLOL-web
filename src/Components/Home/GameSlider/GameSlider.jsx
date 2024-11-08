@@ -33,14 +33,14 @@ const GameSlider = () => {
   };
 
   return (
-    <section className="bg-gray-900 text-gray-200 py-12 px-8">
+    <section className="bg-gray-900 text-gray-200 py-20 px-8">
       <div className="w-9/12 mx-auto">
         {/* Header Section */}
-        <h3 className="text-yellow-400 text-sm font-bold uppercase mb-2">
+        <h3 className="text-[#bcdff4]  text-xl font-bold font-heading-aldrich tracking-wider uppercase mb-10">
           GameFlow
         </h3>
-        <h2 className="text-4xl font-bold text-white mb-6">
-          WE'RE PLAY-TO-WIN <br /> GAMING FIRST
+        <h2 className="text-4xl tracking-wider font-heading-aldrich font-bold  mb-6 text-yellow-400">
+          WE'RE PLAY-TO-WIN , GAMING FIRST
         </h2>
 
         {/* Drag-to-Scroll Section */}
@@ -54,39 +54,45 @@ const GameSlider = () => {
         >
           {/* Game Card 1 */}
           <div className="bg-gradient-to-b from-blue-600 to-blue-800 p-4 rounded-2xl shadow-lg min-w-[250px] text-center transform hover:scale-105 transition-transform duration-300">
-            <img src="/path/to/slider1.png" alt="Game Card" className="w-full h-60 object-cover rounded-lg mb-4" />
+            <img src="/public/assets/game1.webp" alt="Game Card" className="w-full h-60 object-cover rounded-lg mb-4" />
+            <FaGem className="text-5xl text-white mb-4 mx-auto" />
             <p className="text-lg font-bold text-white mb-2">Get Spin Packages</p>
             <p className="text-sm text-gray-300">Progress faster with exclusive spin packages.</p>
           </div>
 
           {/* Game Card 2 */}
           <div className="bg-gradient-to-b from-purple-600 to-purple-800 p-4 rounded-2xl shadow-lg min-w-[250px] text-center transform hover:scale-105 transition-transform duration-300">
-            <img src="/path/to/slider2.png" alt="Game Card" className="w-full h-60 object-cover rounded-lg mb-4" />
+          <img src="/public/assets/game2.webp" alt="Game Card" className="w-full h-60 object-cover rounded-lg mb-4" />
+            <FaGem className="text-5xl text-white mb-4 mx-auto" />
             <p className="text-lg font-bold text-white mb-2">Receive Exclusive Offers</p>
             <p className="text-sm text-gray-300">Upgrade to premium for special benefits.</p>
           </div>
 
           {/* Game Card 3 */}
           <div className="bg-gradient-to-b from-green-600 to-green-800 p-4 rounded-2xl shadow-lg min-w-[250px] text-center transform hover:scale-105 transition-transform duration-300">
-            <img src="/path/to/slider3.png" alt="Game Card" className="w-full h-60 object-cover rounded-lg mb-4" />
+          <img src="/public/assets/game3.webp" alt="Game Card" className="w-full h-60 object-cover rounded-lg mb-4" />
+            <FaGem className="text-5xl text-white mb-4 mx-auto" />
             <p className="text-lg font-bold text-white mb-2">Win Crypto Rewards</p>
             <p className="text-sm text-gray-300">Earn up to $4,000 in crypto rewards.</p>
           </div>
 
           {/* Additional Game Cards with Icons */}
           <div className="bg-gradient-to-b from-yellow-600 to-yellow-800 p-4 rounded-2xl shadow-lg min-w-[250px] text-center transform hover:scale-105 transition-transform duration-300">
+          <img src="/public/assets/game4.webp" alt="Game Card" className="w-full h-60 object-cover rounded-lg mb-4" />
             <FaCoins className="text-5xl text-white mb-4 mx-auto" />
             <p className="text-lg font-bold text-white mb-2">Collect Coins</p>
             <p className="text-sm text-gray-300">Gather coins and increase your earnings.</p>
           </div>
 
           <div className="bg-gradient-to-b from-red-600 to-red-800 p-4 rounded-2xl shadow-lg min-w-[250px] text-center transform hover:scale-105 transition-transform duration-300">
+          <img src="/public/assets/game5.webp" alt="Game Card" className="w-full h-60 object-cover rounded-lg mb-4" />
             <FaStar className="text-5xl text-white mb-4 mx-auto" />
             <p className="text-lg font-bold text-white mb-2">Achieve Stars</p>
             <p className="text-sm text-gray-300">Complete challenges to earn stars.</p>
           </div>
 
           <div className="bg-gradient-to-b from-teal-600 to-teal-800 p-4 rounded-2xl shadow-lg min-w-[250px] text-center transform hover:scale-105 transition-transform duration-300">
+          <img src="/public/assets/game6.webp" alt="Game Card" className="w-full h-60 object-cover rounded-lg mb-4" />
             <FaGem className="text-5xl text-white mb-4 mx-auto" />
             <p className="text-lg font-bold text-white mb-2">Gain Gems</p>
             <p className="text-sm text-gray-300">Find rare gems through mining activities.</p>
