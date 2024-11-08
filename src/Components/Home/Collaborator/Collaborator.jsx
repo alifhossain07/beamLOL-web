@@ -26,7 +26,7 @@ const Collaborator = () => {
           <h3 className="text-[#bcdff4] text-xl font-bold font-heading-aldrich tracking-wider uppercase mb-10">
             Our Collabs
           </h3>
-          <h2 className="text-4xl tracking-wider font-heading-aldrich text-yellow-400 font-bold mb-10">
+          <h2 className="text-3xl lg:text-4xl tracking-wider font-heading-aldrich text-yellow-400 font-bold mb-10">
             COLLABORATIONS
           </h2>
 
